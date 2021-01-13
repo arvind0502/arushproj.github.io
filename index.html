@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+<title>St. Patrick's Academy</title>
+<link rel="stylesheet" href="Css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.cssintegrity="
+    sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+<body>
+    <!-- Top menu -->
+
+    
+    <nav class="navbar navbar-inverse" style="background-color: rgb(14, 131, 14);">
+        <div class="container-fluid">
+            <div class="w3-xlarge" style="max-width:1200px; background: transparent;">
+                <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()"><img src="img/logo.png" alt=""></div>
+            </div>
+            <ul class="nav navbar-nav navbar-right ">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">USER LOGIN</a></li>
+                <li><a href="#">ICLASS ROOM</a></li>
+                <li><a href="#">ONLINE PAYMENT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ABOUT
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">School</a>
+                        <a class="dropdown-item" href="#">Congregation</a>
+                        <a class="dropdown-item" href="#">Vision</a>
+                        <a class="dropdown-item" href="#">Grand Vision</a>
+                        <a class="dropdown-item" href="#">Mission</a>
+                        <a class="dropdown-item" href="#">Alumni</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        SCHOOL CAMPUS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Kinder Garden</a>
+                        <a class="dropdown-item" href="#">Junior School</a>
+                        <a class="dropdown-item" href="#">Middle School</a>
+                        <a class="dropdown-item" href="#">Senior School</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        DEPARTMENT
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">School</a>
+                        <a class="dropdown-item" href="#">Congregation</a>
+                        <a class="dropdown-item" href="#">Vision</a>
+                        <a class="dropdown-item" href="#">Grand Vision</a>
+                        <a class="dropdown-item" href="#">Mission</a>
+                        <a class="dropdown-item" href="#">Alumni</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ADMISSION
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">School</a>
+                        <a class="dropdown-item" href="#">Congregation</a>
+                        <a class="dropdown-item" href="#">Vision</a>
+                        <a class="dropdown-item" href="#">Grand Vision</a>
+                        <a class="dropdown-item" href="#">Mission</a>
+                        <a class="dropdown-item" href="#">Alumni</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        GALLERY
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">School</a>
+                        <a class="dropdown-item" href="#">Congregation</a>
+                        <a class="dropdown-item" href="#">Vision</a>
+                        <a class="dropdown-item" href="#">Grand Vision</a>
+                        <a class="dropdown-item" href="#">Mission</a>
+                        <a class="dropdown-item" href="#">Alumni</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        FACILITIES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">School</a>
+                        <a class="dropdown-item" href="#">Congregation</a>
+                        <a class="dropdown-item" href="#">Vision</a>
+                        <a class="dropdown-item" href="#">Grand Vision</a>
+                        <a class="dropdown-item" href="#">Mission</a>
+                        <a class="dropdown-item" href="#">Alumni</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        GUIDLIANCES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">School</a>
+                        <a class="dropdown-item" href="#">Congregation</a>
+                        <a class="dropdown-item" href="#">Vision</a>
+                        <a class="dropdown-item" href="#">Grand Vision</a>
+                        <a class="dropdown-item" href="#">Mission</a>
+                        <a class="dropdown-item" href="#">Alumni</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!--Carousel-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="img/1.jpg" alt="" style="width:100%;">
+            </div>
+
+            <div class="item">
+                <img src="img/2.jpg" alt="Chicago" style="width:100%;">
+            </div>
+
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <section id="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                    <div class="center wow fadeInDown animated"
+                        style="visibility: visible; animation-name: fadeInDown;">
+                        <h2>About St. Patrick's Academy</h2>
+                        <p class="lead">St.Patrick's Academy, Angamaly is founded and run by The Congregation of the
+                            Brothers of St.Patrick, India and is registered as The Educational Society of the Brothers
+                            of St.Patrick Angamaly. <a href="school/">Read More</a></p>
+                    </div>
+                    <div class="row">
+                        <div class="features col-md-12 col-sm-12 col-xs-12 no-padding">
+                            <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInDown animated" data-wow-duration="1000ms"
+                                data-wow-delay="600ms"
+                                style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
+                                <div class="feature-wrap">
+                                    <i class="fa ce-message"></i>
+                                    <h2>Principal's Message</h2>
+                                    <h3>I am delighted to welcome you to ... <a href="principals-message/">more</a></h3>
+                                </div>
+                            </div>
+                            <!--/.col-md-4-->
+                            <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInDown animated" data-wow-duration="1000ms"
+                                data-wow-delay="600ms"
+                                style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
+                                <div class="feature-wrap">
+                                    <i class="fa ce-breastplate"></i>
+                                    <h2>The Breastplate</h2>
+                                    <h3>St. Patrick's Breastplate is a popular prayer ... <a
+                                            href="breastplate/">more</a></h3>
+                                </div>
+                            </div>
+                            <!--/.col-md-4-->
+                            <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInDown animated" data-wow-duration="1000ms"
+                                data-wow-delay="600ms"
+                                style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
+                                <div class="feature-wrap">
+                                    <i class="fa ce-vision"></i>
+                                    <h2>Our Grand Vision</h2>
+                                    <h3>Young man / woman who will see the entire ... <a href="vision/">more</a></h3>
+                                </div>
+                            </div>
+                            <!--/.col-md-4-->
+                            <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInDown animated" data-wow-duration="1000ms"
+                                data-wow-delay="600ms"
+                                style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
+                                <div class="feature-wrap">
+                                    <i class="fa ce-congregation"></i>
+                                    <h2>The Congregation</h2>
+                                    <h3>The Congregation of the Brothers of St.Patrick ... <a
+                                            href="congregation/">more</a></h3>
+                                </div>
+                            </div>
+                            <!--/.col-md-4-->
+                            <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInDown animated" data-wow-duration="1000ms"
+                                data-wow-delay="600ms"
+                                style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
+                                <div class="feature-wrap">
+                                    <i class="fa ce-objectives"></i>
+                                    <h2>Aims &amp; Objectives</h2>
+                                    <h3>The school attaches great importance to a ... <a
+                                            href="aims-objectives/">more</a></h3>
+                                </div>
+                            </div>
+                            <!--/.col-md-4-->
+                            <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInDown animated" data-wow-duration="1000ms"
+                                data-wow-delay="600ms"
+                                style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
+                                <div class="feature-wrap">
+                                    <i class="fa ce-notes"></i>
+                                    <h2>Notes to Parents</h2>
+                                    <h3>Parents are requested to bear in mind that ... <a
+                                            href="guidelines-parents/">more</a></h3>
+                                </div>
+                            </div>
+                            <!--/.col-md-4-->
+                        </div>
+                        <!--/.services-->
+                    </div>
+                    <!--/.row-->
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="center wow fadeInDown pb0 animated"
+                        style="visibility: visible; animation-name: fadeInDown;">
+                        <h2>News &amp; Updates</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div id="newsRead" style="overflow: hidden; position: relative; height: 50px;" class="">
+                                <ul
+                                    style="list-style-type: none; position: absolute; margin: 0px; padding: 0px; top: 0px;">
+
+                                    <li style="margin: 0px; padding: 0px; height: 70px;">
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-2 col-xs-3">
+                                                <div class="newsDateWrapper">
+                                                    <span class="newsDate">20</span>
+                                                    <span class="newsDay">Nov<br>2020</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 col-sm-10 col-xs-9 newsContent">
+                                                <a href="news/files/1605845725_LKG2021-22Feedeadlinerevised.pdf"
+                                                    target="_blank"> LKG 2021-22 Fee Details &amp; Deadline</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li style="margin: 0px; padding: 0px; height: 70px;">
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-2 col-xs-3">
+                                                <div class="newsDateWrapper">
+                                                    <span class="newsDate">07</span>
+                                                    <span class="newsDay">Jul<br>2020</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 col-sm-10 col-xs-9 newsContent">
+                                                <a href="news/files/1594135258_TCAPPLICATIONpdf.pdf" target="_blank"> TC
+                                                    Application</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li style="margin: 0px; padding: 0px; height: 70px;">
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-2 col-xs-3">
+                                                <div class="newsDateWrapper">
+                                                    <span class="newsDate">13</span>
+                                                    <span class="newsDay">Aug<br>2020</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 col-sm-10 col-xs-9 newsContent">
+                                                <a href="news/files/1597307787_Feeslip.pdf" target="_blank"> Fee
+                                                    slip</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li style="margin: 0px; padding: 0px; height: 70px;">
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-2 col-xs-3">
+                                                <div class="newsDateWrapper">
+                                                    <span class="newsDate">15</span>
+                                                    <span class="newsDay">Oct<br>2020</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 col-sm-10 col-xs-9 newsContent">
+                                                <a href="news/files/1602755500_RevisedFeecircular2020-21.pdf"
+                                                    target="_blank"> Revised fee structure with reduction 2020-21</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li style="margin: 0px; padding: 0px; height: 70px;">
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-2 col-xs-3">
+                                                <div class="newsDateWrapper">
+                                                    <span class="newsDate">02</span>
+                                                    <span class="newsDay">Nov<br>2020</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 col-sm-10 col-xs-9 newsContent">
+                                                <a href="news/files/1604301684_LKGadmissionreopened.pdf"
+                                                    target="_blank"> LKG Admission Reopened</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li style="margin: 0px; padding: 0px; height: 70px;">
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-2 col-xs-3">
+                                                <div class="newsDateWrapper">
+                                                    <span class="newsDate">04</span>
+                                                    <span class="newsDay">Nov<br>2020</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 col-sm-10 col-xs-9 newsContent">
+                                                <a href="news/files/1604463664_ProjectFrontpage.docx" target="_blank">
+                                                    Project Front page</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li style="margin: 0px; padding: 0px; height: 70px;">
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-2 col-xs-3">
+                                                <div class="newsDateWrapper">
+                                                    <span class="newsDate">13</span>
+                                                    <span class="newsDay">Nov<br>2020</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 col-sm-10 col-xs-9 newsContent">
+                                                <a href="news/files/1605249364_History&amp;PoliticalSC.pdf"
+                                                    target="_blank"> History &amp; Political Science Project Front
+                                                    page</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li style="margin: 0px; padding: 0px; height: 70px;">
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-2 col-xs-3">
+                                                <div class="newsDateWrapper">
+                                                    <span class="newsDate">20</span>
+                                                    <span class="newsDay">Nov<br>2020</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 col-sm-10 col-xs-9 newsContent">
+                                                <a href="news/files/1605845451_LKG2021-22selectionlistRevised.pdf"
+                                                    target="_blank"> LKG Admission 2021-22 Selected students
+                                                    list(Revised)</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="facilities">
+        <div class="container" style="width: 100%; background-color: limegreen;" >
+            <div class="row">
+
+                <div class="col-sm-6 col-md-4">
+                    <div style="visibility: visible; animation-name: fadeInDown; margin: 35px;" class="media school-wrap wow fadeInDown animated animated">
+                           <a href="spabeacon/"><img class="img-responsive" src="img/newspaper.png"></a>
+                       
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div style="visibility: visible; animation-name: fadeInDown; margin: 35px;" class="media school-wrap wow fadeInDown animated animated">
+                     <iframe width="100%" height="235" src="https://www.youtube.com/embed/MgurPTBvGf0?rel=0" frameborder="0" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div style="visibility: visible; animation-name: fadeInDown; margin: 35px;" class="media school-wrap wow fadeInDown animated animated">
+                     <img class="img-responsive" src="img/radio.png">
+                    </div>
+                </div>  
+                                              
+            </div><!--/.row-->
+        </div>
+    </section>
+
+    <section id="recent-works">
+        <div class="container">
+            <div class="center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+               <h2>Recent Events</h2>
+                <p class="lead">Latest events summary of the major happening from various activities in our school</p>
+            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="img/1603263238_s.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Student Council - 2020-21</a> </h3>
+                                <p></p>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                              <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="img/1603263213_s.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Student Council - 2020-21</a> </h3>
+                                <p></p>
+                                </div> 
+                        </div>
+                    </div>
+                </div>
+                              <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="img/1603263194_s.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Student Council - 2020-21</a> </h3>
+                                <p></p>
+                                </div> 
+                        </div>
+                    </div>
+                </div>
+                              <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="img/1603263171_s.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Student Council - 2020-21</a> </h3>
+                                <p></p>
+                                 </div> 
+                        </div>
+                    </div>
+                </div>
+                              <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="img/1603263147_s.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">Student Council - 2020-21</a> </h3>
+                                <p></p>
+                                 </div> 
+                        </div>
+                    </div>
+                </div>
+                              <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="img/1594793664_s.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">ICSE Toppers</a> </h3>
+                                <p></p>
+                             </div> 
+                        </div>
+                    </div>
+                </div>
+                              <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="img/1594793634_s.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">ICSE Toppers</a> </h3>
+                                <p></p>
+                              </div> 
+                        </div>
+                    </div>
+                </div>
+                              <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="img/1594793562_s.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">ICSE Toppers</a> </h3>
+                                <p></p>
+                               </div> 
+                        </div>
+                    </div>
+                </div>
+                              <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="img/1594617057_s.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">CLASS XII - SCIENCE STREAM TOPPERS</a> </h3>
+                                <p></p>
+                               </div> 
+                        </div>
+                    </div>
+                </div>
+                              <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="img/1594617003_s.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">CLASS XII - SCIENCE STREAM TOPPERS</a> </h3>
+                                <p></p>
+                               </div> 
+                        </div>
+                    </div>
+                </div>
+                              <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="img/1594616959_s.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">CLASS XII - SCIENCE STREAM TOPPERS</a> </h3>
+                                <p></p>
+                               </div> 
+                        </div>
+                    </div>
+                </div>
+                              <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="img/1594616943_s.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">CLASS XII - SCIENCE STREAM TOPPERS</a> </h3>
+                                <p></p>
+                              </div> 
+                        </div>
+                    </div>
+                </div>
+                              <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="img/1594616904_s.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">CLASS XII - COMMERCE STREAM TOPPERS</a> </h3>
+                                <p></p>
+                             </div> 
+                        </div>
+                    </div>
+                </div>
+                              <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="img/1594614023_s.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">ICSE Toppers</a> </h3>
+                                <p></p>
+                             </div> 
+                        </div>
+                    </div>
+                </div>
+                              <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="img/1594614007_s.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">ICSE Toppers</a> </h3>
+                                <p></p>
+                              </div> 
+                        </div>
+                    </div>
+                </div>
+                              <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="img/1594613986_s.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a href="#">ICSE Toppers</a> </h3>
+                                <p></p>
+                             </div> 
+                        </div>
+                    </div>
+                </div>
+               
+                
+            </div><!--/.row-->
+        <!--/.container-->
+    </section>
+    <section id="bottom" style="background-color: rgb(189, 189, 189); width: 100%; height: 200px;">
+        <div class="container wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>About Us</h3>
+                        <ul>
+                            <li><a href="school/">School</a></li>
+                            <li><a href="vision/">Vision</a></li>
+                            <li><a href="mission/">Mission</a></li>
+                            <li><a href="principals-message/">Principal's Message</a></li>
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Facilities</h3>
+                        <ul>
+                            <li><a href="kinder-facilities/">Kindergarten</a></li>
+                            <li><a href="junior-facilities/">Junior School</a></li>
+                            <li><a href="middle-facilities/">Middle School</a></li>
+                            <li><a href="senior-facilities/">Senior School</a></li>
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Guidelines</h3>
+                        <ul>
+                            <li><a href="guidelines-parents/">Parents</a></li>
+                            <li><a href="guidelines-students/">Students</a></li>
+                            <li><a href="dismissals/">Dismissal</a></li>
+                            <li><a href="fee-rules/">Fee Rules</a></li>
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="contact/">Contact</a></li>
+                            <li><a href="sms/">User Login</a></li>
+                            <li><a href="photo-gallery/">Photo Gallery</a></li>
+                            <li><a href="video-gallery/">Video Gallery</a></li>
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="midnight-blue" style="background-color: black; width: 100%; height: 50px;">
+        <div class="container" style="text-decoration: white;" >
+            <div class="row">
+                <div class="col-sm-6">
+                    © 2020 - 2021 St. Patrick's Academy. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End page content -->
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
